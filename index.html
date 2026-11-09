@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shoora Fitness Club | Gym in Nirmal, Telangana</title>
+<meta name="description" content="Shoora Fitness Club - Modern gym boasting new equipment, plus strength training, weight loss programs and a supplement store. Near Shanti Nagar Rd, X Road, AP Housing Board Colony, Nirmal, Telangana 504106. Call 099892 24307. Open - Closes 9 PM.">
+<meta name="keywords" content="Shoora Fitness Club, Gym Nirmal, Fitness Club Telangana, Weight Training Nirmal">
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800;900&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ExerciseGym","name":"Shoora Fitness Club","address":{"@type":"PostalAddress","streetAddress":"Near Shanti Nagar Rd, X Road, AP Housing Board Colony","addressLocality":"Nirmal","addressRegion":"Telangana","postalCode":"504106","addressCountry":"IN"},"telephone":"099892 24307","description":"Modern gym boasting new equipment, plus strength training, weight loss programs and a supplement store."}
+</script>
+<script>
+tailwind.config={theme:{extend:{fontFamily:{display:['Bebas Neue','sans-serif'],sans:['Inter','sans-serif'],oswald:['Oswald','sans-serif']},colors:{ink:'#050505',coal:'#111111',smoke:'#1a1a1a'}}}}
+</script>
+<style>
+*{scroll-behavior:smooth}
+body{font-family:'Inter',sans-serif;background:#050505;color:#fff;overflow-x:hidden}
+::-webkit-scrollbar{width:9px}::-webkit-scrollbar-track{background:#111}::-webkit-scrollbar-thumb{background:#fff;border-radius:99px}
+.display{font-family:'Bebas Neue',sans-serif;letter-spacing:.02em}
+.text-stroke{-webkit-text-stroke:1.5px rgba(255,255,255,.9);color:transparent}
+.text-stroke-black{-webkit-text-stroke:1.5px #000;color:transparent}
+.hero-img{animation:ken 18s ease-in-out infinite alternate}
+@keyframes ken{from{transform:scale(1) translateX(0)}to{transform:scale(1.15) translateX(-2%)}}
+@keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.marquee-track{animation:marquee 22s linear infinite}
+.reveal{opacity:0;transform:translateY(28px);transition:all .8s cubic-bezier(.22,1,.36,1)}
+.reveal.visible{opacity:1;transform:none}
+.card-hover{transition:all .45s cubic-bezier(.22,1,.36,1)}
+.card-hover:hover{transform:translateY(-8px)}
+.card-hover:hover .svc-img{transform:scale(1.08)}
+.svc-img{transition:transform .8s cubic-bezier(.22,1,.36,1)}
+.gal-img{transition:transform .6s}
+.gal-item:hover .gal-img{transform:scale(1.1)}
+.no-scrollbar::-webkit-scrollbar{display:none}
+input[type=range]{-webkit-appearance:none;width:100%;height:6px;background:#333;border-radius:99px;outline:none}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:22px;height:22px;background:#fff;border-radius:50%;border:4px solid #000;box-shadow:0 0 0 2px #fff;cursor:pointer}
+.lightbox{backdrop-filter:blur(10px)}
+</style>
+</head>
+<body class="antialiased">
+
+<!-- TOP BAR -->
+<div class="bg-white text-black text-[11px] md:text-xs font-bold tracking-wide">
+  <div class="max-w-7xl mx-auto px-4 py-2 flex flex-wrap justify-between items-center gap-2">
+    <p class="flex items-center gap-2 uppercase"><i class="fa-solid fa-location-dot"></i> Near Shanti Nagar Rd, X Road, AP Housing Board Colony, Nirmal, Telangana 504106</p>
+    <div class="flex items-center gap-4">
+      <a href="tel:+919989224307" class="hover:underline"><i class="fa-solid fa-phone"></i> 099892 24307</a>
+      <span class="hidden sm:flex items-center gap-1.5 bg-black text-white px-2.5 py-1 rounded-full"><span class="w-2 h-2 bg-white rounded-full animate-pulse"></span> Open • Closes 9 PM</span>
+    </div>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav id="navbar" class="sticky top-0 z-50 bg-black/90 backdrop-blur-xl border-b border-white/10 transition-all">
+  <div class="max-w-7xl mx-auto px-4 md:px-6 h-[72px] flex items-center justify-between">
+    <a href="#home" class="flex items-center gap-3">
+      <div class="w-11 h-11 bg-white text-black flex items-center justify-center font-display text-2xl pt-1">S</div>
+      <div class="leading-none">
+        <p class="font-display text-[26px] tracking-wider leading-none">SHOORA</p>
+        <p class="text-[9px] tracking-[0.35em] font-bold text-white/70">FITNESS CLUB • NIRMAL</p>
+      </div>
+    </a>
+    <div class="hidden lg:flex items-center gap-8 text-[13px] font-bold tracking-widest">
+      <a href="#home" class="hover:text-white/60">HOME</a><a href="#about" class="hover:text-white/60">ABOUT</a><a href="#services" class="hover:text-white/60">SERVICES</a><a href="#gallery" class="hover:text-white/60">GALLERY</a><a href="#hours" class="hover:text-white/60">HOURS</a><a href="#contact" class="hover:text-white/60">CONTACT</a>
+    </div>
+    <div class="flex items-center gap-2">
+      <a href="tel:+919989224307" class="hidden md:flex bg-white text-black font-extrabold text-sm px-5 py-2.5 rounded-full items-center gap-2 hover:bg-white/85"><i class="fa-solid fa-phone"></i> CALL NOW</a>
+      <button id="menuBtn" class="lg:hidden w-11 h-11 border border-white/20 rounded-full flex items-center justify-center"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </div>
+  <div id="mobileMenu" class="hidden lg:hidden border-t border-white/10 bg-black px-5 py-5">
+    <div class="grid gap-3 font-bold tracking-widest text-sm"><a href="#home">HOME</a><a href="#about">ABOUT</a><a href="#services">SERVICES</a><a href="#gallery">GALLERY</a><a href="#hours">OPENING HOURS</a><a href="#contact">CONTACT</a><a href="tel:+919989224307" class="bg-white text-black text-center py-3 rounded-full mt-2">CALL 099892 24307</a></div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="relative min-h-[92vh] flex items-center overflow-hidden bg-black">
+  <div class="absolute inset-0">
+    <img class="hero-img w-full h-full object-cover opacity-50" src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1800&auto=format&fit=crop" alt="Shoora Fitness Club gym interior">
+    <div class="absolute inset-0 bg-gradient-to-r from-black via-black/70 to-transparent"></div>
+    <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black/40"></div>
+  </div>
+  <div class="relative max-w-7xl mx-auto px-4 md:px-6 py-16 w-full">
+    <div class="max-w-3xl reveal visible">
+      <div class="inline-flex items-center gap-2 border border-white/30 bg-white/10 backdrop-blur px-3 py-1.5 rounded-full text-[11px] font-bold tracking-widest"><span class="w-2 h-2 bg-white rounded-full animate-ping"></span> OPEN NOW • CLOSES 9:00 PM <span class="opacity-60">| NIRMAL, TELANGANA</span></div>
+      <h1 class="font-display leading-[0.85] mt-5 text-[72px] sm:text-[100px] lg:text-[135px]">TRAIN HARD.<br><span class="text-stroke">STAY SHOORA.</span></h1>
+      <p class="mt-4 text-white/80 text-base md:text-lg leading-relaxed max-w-xl">Modern gym boasting new equipment, plus strength training, weight loss programs and a supplement store.</p>
+      <div class="flex flex-wrap gap-3 mt-7">
+        <a href="#services" class="bg-white text-black font-extrabold px-7 py-3.5 rounded-full text-sm tracking-wide hover:scale-[1.03] transition">EXPLORE SERVICES <i class="fa-solid fa-arrow-right ml-1"></i></a>
+        <a href="#contact" class="border border-white/40 hover:bg-white hover:text-black font-bold px-7 py-3.5 rounded-full text-sm tracking-wide transition">CONTACT US</a>
+        <a href="tel:+919989224307" class="bg-black/60 backdrop-blur border border-white/20 font-bold px-6 py-3.5 rounded-full text-sm flex items-center gap-2"><i class="fa-solid fa-phone"></i> 099892 24307</a>
+      </div>
+      <div class="grid grid-cols-3 gap-3 mt-10 max-w-lg">
+        <div class="border border-white/15 bg-white/5 backdrop-blur rounded-2xl p-4"><p class="font-display text-3xl">11</p><p class="text-[10px] tracking-widest text-white/60 font-bold">SERVICES</p></div>
+        <div class="border border-white/15 bg-white/5 backdrop-blur rounded-2xl p-4"><p class="font-display text-3xl">9 PM</p><p class="text-[10px] tracking-widest text-white/60 font-bold">CLOSES TODAY</p></div>
+        <div class="border border-white/15 bg-white/5 backdrop-blur rounded-2xl p-4"><p class="font-display text-3xl">NEW</p><p class="text-[10px] tracking-widest text-white/60 font-bold">EQUIPMENT</p></div>
+      </div>
+    </div>
+  </div>
+  <div class="absolute bottom-6 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1 text-white/60 text-[10px] tracking-[0.3em] font-bold">SCROLL <i class="fa-solid fa-chevrons-down animate-bounce"></i></div>
+</section>
+
+<!-- MARQUEE -->
+<div class="bg-white text-black py-3 overflow-hidden border-y border-black">
+  <div class="flex whitespace-nowrap marquee-track font-display text-xl tracking-wider">
+    <span class="flex gap-8 pr-8"><span>SHOORA FITNESS CLUB ✦ STRENGTH TRAINING ✦ WEIGHT LOSS PROGRAMS ✦ NEW EQUIPMENT ✦ SUPPLEMENT STORE ✦ OPEN - CLOSES 9 PM ✦</span><span>SHOORA FITNESS CLUB ✦ STRENGTH TRAINING ✦ WEIGHT LOSS PROGRAMS ✦ NEW EQUIPMENT ✦ SUPPLEMENT STORE ✦ OPEN - CLOSES 9 PM ✦</span></span>
+  </div>
+</div>
+
+<!-- QUICK ACTIONS -->
+<section class="max-w-7xl mx-auto px-4 md:px-6 -mt-1 py-8">
+  <div class="grid md:grid-cols-4 gap-3 reveal">
+    <a href="tel:+919989224307" class="bg-white text-black rounded-2xl p-5 flex items-center gap-4 card-hover"><i class="fa-solid fa-phone text-2xl"></i><div><p class="font-extrabold text-sm">Call Now</p><p class="text-xs opacity-60">099892 24307</p></div></a>
+    <a href="https://wa.me/919989224307?text=Hello%20Shoora%20Fitness%20Club%2C%20I%20want%20to%20enquire%20about%20your%20services." target="_blank" class="bg-[#111] border border-white/15 rounded-2xl p-5 flex items-center gap-4 card-hover"><i class="fa-brands fa-whatsapp text-2xl"></i><div><p class="font-extrabold text-sm">WhatsApp Us</p><p class="text-xs text-white/50">Chat instantly</p></div></a>
+    <a href="https://www.google.com/maps/dir/?api=1&destination=Shoora%20Fitness%20Club%2C%20Near%20Shanti%20Nagar%20Rd%2C%20X%20Road%2C%20AP%20Housing%20Board%20Colony%2C%20Nirmal%2C%20Telangana%20504106" target="_blank" class="bg-[#111] border border-white/15 rounded-2xl p-5 flex items-center gap-4 card-hover"><i class="fa-solid fa-diamond-turn-right text-2xl"></i><div><p class="font-extrabold text-sm">Get Directions</p><p class="text-xs text-white/50">Open in Google Maps</p></div></a>
+    <a href="#hours" class="bg-[#111] border border-white/15 rounded-2xl p-5 flex items-center gap-4 card-hover"><i class="fa-regular fa-clock text-2xl"></i><div><p class="font-extrabold text-sm">Open • Closes 9 PM</p><p class="text-xs text-white/50">See hours & notice</p></div></a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="max-w-7xl mx-auto px-4 md:px-6 py-14 md:py-20">
+  <div class="grid lg:grid-cols-2 gap-10 items-center">
+    <div class="reveal">
+      <p class="text-xs font-extrabold tracking-[0.3em] text-white/50">01 — ABOUT SHOORA</p>
+      <h2 class="font-display text-5xl md:text-7xl leading-[0.9] mt-3">BUILT FOR<br><span class="text-stroke">REAL RESULTS</span></h2>
+      <div class="bg-white text-black rounded-2xl p-5 mt-6">
+        <p class="font-semibold leading-relaxed text-[15px]">"Modern gym boasting new equipment, plus strength training, weight loss programs and a supplement store."</p>
+        <p class="text-xs mt-3 opacity-60 font-bold tracking-wide">— SHOORA FITNESS CLUB, NIRMAL</p>
+      </div>
+      <p class="text-white/70 leading-relaxed mt-5">Located at Near Shanti Nagar Rd, X Road, AP Housing Board Colony, Nirmal, Telangana 504106 — Shoora Fitness Club is your premium destination for strength, fitness and everyday performance in Nirmal.</p>
+      <div class="grid grid-cols-2 gap-3 mt-6">
+        <div class="border border-white/15 rounded-xl p-4"><i class="fa-solid fa-dumbbell"></i><p class="font-bold text-sm mt-2">New Equipment</p><p class="text-xs text-white/50 mt-1">Modern gym boasting new equipment</p></div>
+        <div class="border border-white/15 rounded-xl p-4"><i class="fa-solid fa-fire"></i><p class="font-bold text-sm mt-2">Weight Loss Programs</p><p class="text-xs text-white/50 mt-1">Dedicated programs at the club</p></div>
+        <div class="border border-white/15 rounded-xl p-4"><i class="fa-solid fa-weight-hanging"></i><p class="font-bold text-sm mt-2">Strength Training</p><p class="text-xs text-white/50 mt-1">Strength training area & weights</p></div>
+        <div class="border border-white/15 rounded-xl p-4"><i class="fa-solid fa-bag-shopping"></i><p class="font-bold text-sm mt-2">Supplement Store</p><p class="text-xs text-white/50 mt-1">In-club supplement store</p></div>
+      </div>
+      <div class="flex flex-wrap gap-3 mt-6"><a href="tel:+919989224307" class="bg-white text-black font-extrabold px-6 py-3 rounded-full text-sm">CALL TO ENQUIRE</a><a href="#services" class="border border-white/25 font-bold px-6 py-3 rounded-full text-sm">VIEW ALL 11 SERVICES</a></div>
+    </div>
+    <div class="reveal">
+      <div class="relative">
+        <img class="w-full h-[520px] object-cover rounded-[28px]" src="https://images.unsplash.com/photo-1517963879433-6ad2b056d712?q=80&w=1200&auto=format&fit=crop" alt="Dumbbells and weights at gym">
+        <img class="absolute -bottom-6 -left-4 md:-left-8 w-56 md:w-72 h-48 object-cover rounded-2xl border-4 border-black shadow-2xl" src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=800&auto=format&fit=crop" alt="Workout area">
+        <div class="absolute top-4 right-4 bg-white text-black rounded-full px-4 py-2 font-extrabold text-xs tracking-wide">NEW EQUIPMENT ✦</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="bg-white text-black py-16 md:py-24 rounded-t-[32px] md:rounded-t-[48px]">
+  <div class="max-w-7xl mx-auto px-4 md:px-6">
+    <div class="flex flex-wrap justify-between items-end gap-6 reveal">
+      <div><p class="text-[11px] font-extrabold tracking-[0.3em] opacity-50">02 — OUR SERVICES</p><h2 class="font-display text-5xl md:text-7xl leading-[0.9] mt-2">11 SERVICES.<br><span class="text-stroke-black">ONE GOAL: YOU.</span></h2></div>
+      <div class="w-full md:w-auto">
+        <div class="flex gap-2"><input id="svcSearch" placeholder="Search services..." class="border-2 border-black rounded-full px-5 py-3 text-sm w-full md:w-64 outline-none"><button onclick="document.getElementById('svcSearch').value='';renderServices()" class="bg-black text-white px-4 rounded-full text-sm font-bold">Clear</button></div>
+        <div class="flex flex-wrap gap-2 mt-3" id="filterBtns">
+          <button data-f="All" class="fbtn bg-black text-white px-4 py-2 rounded-full text-xs font-bold">All</button>
+          <button data-f="Strength" class="fbtn border border-black/20 px-4 py-2 rounded-full text-xs font-bold">Strength</button>
+          <button data-f="Cardio" class="fbtn border border-black/20 px-4 py-2 rounded-full text-xs font-bold">Cardio</button>
+          <button data-f="Coaching" class="fbtn border border-black/20 px-4 py-2 rounded-full text-xs font-bold">Coaching</button>
+          <button data-f="Wellness" class="fbtn border border-black/20 px-4 py-2 rounded-full text-xs font-bold">Wellness</button>
+        </div>
+      </div>
+    </div>
+    <p class="text-sm opacity-60 mt-3"><span id="svcCount">11</span> services listed exactly as provided by Shoora Fitness Club. Tap any card for details & WhatsApp enquiry.</p>
+    <div id="servicesGrid" class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mt-8"></div>
+  </div>
+</section>
+
+<!-- BMI + WHY -->
+<section class="bg-white text-black pb-16 md:pb-24">
+  <div class="max-w-7xl mx-auto px-4 md:px-6 grid lg:grid-cols-5 gap-5">
+    <div class="lg:col-span-3 bg-black text-white rounded-[28px] p-6 md:p-8 reveal">
+      <div class="flex justify-between items-start"><div><p class="text-xs tracking-[0.3em] font-bold text-white/50">INTERACTIVE TOOL</p><h3 class="font-display text-4xl mt-1">BMI CALCULATOR</h3><p class="text-white/60 text-sm mt-1">Check your Body Mass Index instantly — no sign up needed.</p></div><i class="fa-solid fa-calculator text-3xl"></i></div>
+      <div class="grid sm:grid-cols-2 gap-6 mt-7">
+        <div><label class="text-xs font-bold tracking-widest">HEIGHT: <span id="hVal">170</span> cm</label><input id="hRange" type="range" min="120" max="210" value="170" class="mt-3"></div>
+        <div><label class="text-xs font-bold tracking-widest">WEIGHT: <span id="wVal">65</span> kg</label><input id="wRange" type="range" min="35" max="140" value="65" class="mt-3"></div>
+      </div>
+      <div class="flex flex-wrap items-center gap-4 mt-7"><button onclick="calcBMI()" class="bg-white text-black font-extrabold px-7 py-3 rounded-full text-sm">CALCULATE BMI</button><div class="bg-white/10 rounded-2xl px-5 py-3"><p class="text-[10px] tracking-widest text-white/50 font-bold">YOUR BMI</p><p class="font-display text-4xl leading-none"><span id="bmiOut">22.5</span> <span id="bmiCat" class="text-sm font-sans font-bold bg-white text-black px-2 py-1 rounded-full align-middle ml-1">Healthy</span></p></div></div>
+      <p class="text-xs text-white/40 mt-4">This is a general fitness tool and is not medical advice. Visit Shoora Fitness Club at 099892 24307 to discuss your goals.</p>
+    </div>
+    <div class="lg:col-span-2 grid gap-4 reveal">
+      <div class="border-2 border-black rounded-[28px] p-6"><p class="font-display text-3xl">WHY SHOORA?</p><ul class="mt-3 space-y-2 text-sm font-medium"><li>• Modern gym with new equipment</li><li>• Strength training & weight loss programs</li><li>• Supplement store in the club</li><li>• 11 listed services under one roof</li><li>• Easy to reach — Nirmal, Telangana</li></ul></div>
+      <div class="bg-black text-white rounded-[28px] p-6 flex justify-between items-center"><div><p class="font-display text-3xl leading-none">OPEN TODAY</p><p class="text-white/60 text-sm mt-1">Closes 9:00 PM</p><p class="text-xs mt-2 bg-white text-black inline-block px-2 py-1 rounded-full font-bold">Diwali might affect these hours.</p></div><i class="fa-regular fa-clock text-5xl"></i></div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="max-w-7xl mx-auto px-4 md:px-6 py-16 md:py-24">
+  <div class="flex flex-wrap justify-between items-end gap-4 reveal">
+    <div><p class="text-xs font-extrabold tracking-[0.3em] text-white/50">03 — GALLERY</p><h2 class="font-display text-5xl md:text-7xl leading-[0.9] mt-2">INSIDE THE<br><span class="text-stroke">IRON PARADISE</span></h2></div>
+    <p class="text-xs text-white/40 max-w-xs">Representative gym photography showing equipment, training areas and interiors. Tap any image to view larger.</p>
+  </div>
+  <div class="flex gap-2 overflow-x-auto no-scrollbar py-6" id="galFilters">
+    <button data-g="All" class="gbtn shrink-0 bg-white text-black px-4 py-2 rounded-full text-xs font-extrabold">All Photos</button>
+    <button data-g="Gym Equipment" class="gbtn shrink-0 border border-white/20 px-4 py-2 rounded-full text-xs font-bold">Gym Equipment</button>
+    <button data-g="Strength Training Equipment" class="gbtn shrink-0 border border-white/20 px-4 py-2 rounded-full text-xs font-bold">Strength Training Equipment</button>
+    <button data-g="Dumbbells and Weights" class="gbtn shrink-0 border border-white/20 px-4 py-2 rounded-full text-xs font-bold">Dumbbells and Weights</button>
+    <button data-g="Workout Areas" class="gbtn shrink-0 border border-white/20 px-4 py-2 rounded-full text-xs font-bold">Workout Areas</button>
+    <button data-g="Fitness Machines" class="gbtn shrink-0 border border-white/20 px-4 py-2 rounded-full text-xs font-bold">Fitness Machines</button>
+    <button data-g="Gym Interior" class="gbtn shrink-0 border border-white/20 px-4 py-2 rounded-full text-xs font-bold">Gym Interior</button>
+  </div>
+  <div id="galleryGrid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3"></div>
+</section>
+
+<!-- HOURS + MAP -->
+<section id="hours" class="max-w-7xl mx-auto px-4 md:px-6 pb-16 md:pb-24">
+  <div class="grid lg:grid-cols-2 gap-5">
+    <div class="bg-white text-black rounded-[28px] p-7 md:p-9 reveal">
+      <p class="text-[11px] font-extrabold tracking-[0.3em] opacity-50">04 — OPENING HOURS</p>
+      <h3 class="font-display text-5xl md:text-6xl mt-2 leading-none">OPEN —<br>CLOSES 9 PM</h3>
+      <div class="flex items-center gap-3 mt-5 bg-black text-white rounded-2xl p-4"><span class="w-3 h-3 bg-white rounded-full animate-pulse"></span><div><p class="font-extrabold text-sm">Open Now</p><p class="text-xs text-white/60">Closing Time: 9:00 PM</p></div><span id="liveTime" class="ml-auto font-mono font-bold"></span></div>
+      <div class="bg-amber-50 border border-amber-200 rounded-2xl p-4 mt-4 flex gap-3"><i class="fa-solid fa-triangle-exclamation mt-0.5"></i><p class="text-sm font-semibold">Diwali might affect these hours.</p></div>
+      <p class="text-sm text-black/60 mt-4 leading-relaxed">Please call <a href="tel:+919989224307" class="font-extrabold underline">099892 24307</a> to confirm availability before visiting, especially around Diwali.</p>
+      <div class="grid grid-cols-2 gap-3 mt-6"><a href="tel:+919989224307" class="bg-black text-white text-center font-extrabold py-3 rounded-full text-sm">CALL NOW</a><a href="https://wa.me/919989224307" target="_blank" class="border-2 border-black text-center font-extrabold py-3 rounded-full text-sm">WHATSAPP</a></div>
+      <div class="mt-7 border-t pt-5"><p class="text-xs font-extrabold tracking-widest opacity-50 mb-3">FREQUENT QUESTIONS</p>
+        <details class="border rounded-xl p-4 mb-2"><summary class="font-bold text-sm cursor-pointer">Where is Shoora Fitness Club located?</summary><p class="text-sm text-black/60 mt-2">Near Shanti Nagar Rd, X Road, AP Housing Board Colony, Nirmal, Telangana 504106</p></details>
+        <details class="border rounded-xl p-4 mb-2"><summary class="font-bold text-sm cursor-pointer">What services are available?</summary><p class="text-sm text-black/60 mt-2">HIIT Exercise Classes, Aerobics, Kickboxing, Crossfit, Private Lessons, Personal Training, Adult Sports, Weight Training, Nutrition Consulting, Cycling, Lasies — see Services section.</p></details>
+        <details class="border rounded-xl p-4"><summary class="font-bold text-sm cursor-pointer">How can I contact the gym?</summary><p class="text-sm text-black/60 mt-2">Call or WhatsApp on 099892 24307, or use Get Directions for Google Maps.</p></details>
+      </div>
+    </div>
+    <div class="rounded-[28px] overflow-hidden border border-white/15 reveal flex flex-col">
+      <iframe title="Shoora Fitness Club Location" src="https://maps.google.com/maps?q=Shoora%20Fitness%20Club%2C%20Near%20Shanti%20Nagar%20Rd%2C%20X%20Road%2C%20AP%20Housing%20Board%20Colony%2C%20Nirmal%2C%20Telangana%20504106&t=&z=15&ie=UTF8&iwloc=&output=embed" class="w-full flex-1 min-h-[320px] grayscale invert-[0.9] contrast-[0.9]" loading="lazy"></iframe>
+      <div class="bg-[#111] p-5 flex flex-wrap justify-between items-center gap-3"><div><p class="font-extrabold text-sm">Shoora Fitness Club</p><p class="text-xs text-white/50">Near Shanti Nagar Rd, X Road, AP Housing Board Colony, Nirmal, Telangana 504106</p></div><a href="https://www.google.com/maps/dir/?api=1&destination=Shoora%20Fitness%20Club%2C%20Near%20Shanti%20Nagar%20Rd%2C%20X%20Road%2C%20AP%20Housing%20Board%20Colony%2C%20Nirmal%2C%20Telangana%20504106" target="_blank" class="bg-white text-black font-extrabold px-5 py-2.5 rounded-full text-sm">GET DIRECTIONS</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="bg-white text-black py-16 md:py-24 rounded-t-[32px] md:rounded-t-[48px]">
+  <div class="max-w-7xl mx-auto px-4 md:px-6">
+    <p class="text-[11px] font-extrabold tracking-[0.3em] opacity-50">05 — CONTACT US</p>
+    <h2 class="font-display text-5xl md:text-7xl leading-[0.9] mt-2">GET IN<br><span class="text-stroke-black">TOUCH TODAY</span></h2>
+    <div class="grid lg:grid-cols-2 gap-8 mt-10">
+      <div class="space-y-4 reveal">
+        <div class="border-2 border-black rounded-2xl p-6"><p class="text-xs font-extrabold tracking-widest opacity-50">BUSINESS</p><p class="font-display text-3xl mt-1">Shoora Fitness Club</p><p class="text-sm text-black/60 mt-2 leading-relaxed">Near Shanti Nagar Rd, X Road, AP Housing Board Colony, Nirmal, Telangana 504106</p></div>
+        <div class="grid sm:grid-cols-2 gap-4">
+          <a href="tel:+919989224307" class="bg-black text-white rounded-2xl p-5"><i class="fa-solid fa-phone text-xl"></i><p class="font-extrabold mt-2 text-sm">Phone</p><p>099892 24307</p><p class="text-xs text-white/50">Tap to call</p></a>
+          <div class="border-2 border-black rounded-2xl p-5"><i class="fa-regular fa-clock text-xl"></i><p class="font-extrabold mt-2 text-sm">Opening Status</p><p>Open – Closes 9 PM</p><p class="text-xs opacity-50">Diwali might affect these hours.</p></div>
+        </div>
+        <div class="grid grid-cols-2 gap-3">
+          <a href="tel:+919989224307" class="bg-black text-white text-center font-extrabold py-3.5 rounded-full text-sm">Call Now</a>
+          <a href="https://wa.me/919989224307?text=Hello%20Shoora%20Fitness%20Club" target="_blank" class="border-2 border-black text-center font-extrabold py-3.5 rounded-full text-sm">WhatsApp</a>
+          <a href="https://www.google.com/maps/dir/?api=1&destination=Shoora%20Fitness%20Club%2C%20Near%20Shanti%20Nagar%20Rd%2C%20X%20Road%2C%20AP%20Housing%20Board%20Colony%2C%20Nirmal%2C%20Telangana%20504106" target="_blank" class="border-2 border-black text-center font-extrabold py-3.5 rounded-full text-sm">Get Directions</a>
+          <a href="#services" class="border-2 border-black text-center font-extrabold py-3.5 rounded-full text-sm">Contact Us ↓</a>
+        </div>
+        <img class="w-full h-56 object-cover rounded-2xl" src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=1200&auto=format&fit=crop" alt="Fitness training">
+      </div>
+      <form id="enquiryForm" class="bg-[#f4f4f4] rounded-[28px] p-6 md:p-8 reveal">
+        <p class="font-display text-3xl">SEND AN ENQUIRY</p><p class="text-sm text-black/60 mt-1">Fill this form — it will open WhatsApp to Shoora Fitness Club with your message ready to send.</p>
+        <label class="block text-xs font-extrabold tracking-widest mt-6">YOUR NAME</label><input required id="fName" class="w-full border-2 border-black/10 focus:border-black rounded-xl px-4 py-3 mt-1 outline-none bg-white" placeholder="Enter your name">
+        <label class="block text-xs font-extrabold tracking-widest mt-4">PHONE NUMBER</label><input required id="fPhone" type="tel" class="w-full border-2 border-black/10 focus:border-black rounded-xl px-4 py-3 mt-1 outline-none bg-white" placeholder="Enter your phone number">
+        <label class="block text-xs font-extrabold tracking-widest mt-4">SELECT SERVICE</label><select id="fService" class="w-full border-2 border-black/10 focus:border-black rounded-xl px-4 py-3 mt-1 outline-none bg-white"></select>
+        <label class="block text-xs font-extrabold tracking-widest mt-4">MESSAGE</label><textarea id="fMsg" rows="3" class="w-full border-2 border-black/10 focus:border-black rounded-xl px-4 py-3 mt-1 outline-none bg-white" placeholder="I want to enquire about..."></textarea>
+        <button class="w-full bg-black text-white font-extrabold py-4 rounded-full mt-6 text-sm tracking-wide">SEND VIA WHATSAPP <i class="fa-brands fa-whatsapp ml-1"></i></button>
+        <p id="formToast" class="hidden text-center text-sm font-bold mt-3">Opening WhatsApp...</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-black border-t border-white/10 pt-14 pb-8">
+  <div class="max-w-7xl mx-auto px-4 md:px-6">
+    <div class="grid md:grid-cols-4 gap-8">
+      <div class="md:col-span-2"><p class="font-display text-5xl">SHOORA <span class="text-stroke">FITNESS CLUB</span></p><p class="text-white/60 text-sm mt-3 max-w-md leading-relaxed">Modern gym boasting new equipment, plus strength training, weight loss programs and a supplement store.</p><div class="flex gap-2 mt-5"><a href="tel:+919989224307" class="bg-white text-black font-extrabold px-5 py-2.5 rounded-full text-sm">Call 099892 24307</a><a href="https://wa.me/919989224307" target="_blank" class="border border-white/25 font-bold px-5 py-2.5 rounded-full text-sm">WhatsApp</a></div></div>
+      <div><p class="font-extrabold tracking-widest text-xs text-white/50">QUICK LINKS</p><ul class="mt-4 space-y-2 text-sm font-medium"><li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#services">Services</a></li><li><a href="#gallery">Gallery</a></li><li><a href="#hours">Opening Hours</a></li><li><a href="#contact">Contact Us</a></li></ul></div>
+      <div><p class="font-extrabold tracking-widest text-xs text-white/50">CONTACT</p><p class="mt-4 font-bold">Shoora Fitness Club</p><p class="text-sm text-white/60 mt-2 leading-relaxed">Near Shanti Nagar Rd, X Road, AP Housing Board Colony, Nirmal, Telangana 504106</p><p class="text-sm mt-3 font-bold">Phone: 099892 24307</p><p class="text-sm text-white/60">Open – Closes 9 PM<br><span class="text-xs">Diwali might affect these hours.</span></p></div>
+    </div>
+    <div class="border-t border-white/10 mt-10 pt-5 flex flex-wrap justify-between gap-3 text-xs text-white/40"><p>© 2026 Shoora Fitness Club, Nirmal, Telangana. All rights reserved.</p><a href="https://www.google.com/maps/dir/?api=1&destination=Shoora%20Fitness%20Club%2C%20Near%20Shanti%20Nagar%20Rd%2C%20X%20Road%2C%20AP%20Housing%20Board%20Colony%2C%20Nirmal%2C%20Telangana%20504106" target="_blank" class="font-bold text-white/70">GET DIRECTIONS →</a></div>
+  </div>
+</footer>
+
+<!-- FLOATING -->
+<div class="fixed bottom-4 right-4 z-50 flex flex-col gap-2">
+  <a href="https://wa.me/919989224307?text=Hello%20Shoora%20Fitness%20Club" target="_blank" class="w-14 h-14 bg-white text-black rounded-full shadow-2xl flex items-center justify-center text-2xl border-2 border-black" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+  <a href="tel:+919989224307" class="w-14 h-14 bg-black text-white rounded-full shadow-2xl flex items-center justify-center text-xl border-2 border-white" title="Call Now"><i class="fa-solid fa-phone"></i></a>
+  <button id="topBtn" class="w-14 h-14 bg-white/10 backdrop-blur border border-white/20 rounded-full hidden items-center justify-center"><i class="fa-solid fa-arrow-up"></i></button>
+</div>
+
+<!-- LIGHTBOX -->
+<div id="lightbox" class="fixed inset-0 z-[100] hidden bg-black/95 lightbox items-center justify-center p-4">
+  <button onclick="closeLB()" class="absolute top-5 right-5 w-11 h-11 bg-white text-black rounded-full font-bold">✕</button>
+  <button onclick="navLB(-1)" class="absolute left-3 top-1/2 -translate-y-1/2 w-11 h-11 bg-white text-black rounded-full">‹</button>
+  <div class="max-w-4xl w-full"><img id="lbImg" class="w-full max-h-[75vh] object-cover rounded-2xl"><p id="lbCap" class="text-center font-bold mt-3 tracking-wide"></p></div>
+  <button onclick="navLB(1)" class="absolute right-3 top-1/2 -translate-y-1/2 w-11 h-11 bg-white text-black rounded-full">›</button>
+</div>
+
+<script>
+const services=[
+{name:"HIIT Exercise Classes",cat:"Cardio",icon:"fa-bolt",img:"https://images.unsplash.com/photo-1518611012118-696072aa579a?q=80&w=800&auto=format&fit=crop",desc:"High-intensity interval training for energy, stamina and fitness."},
+{name:"Aerobics",cat:"Cardio",icon:"fa-heart-pulse",img:"https://images.unsplash.com/photo-1518310383802-640c2de311b2?q=80&w=800&auto=format&fit=crop",desc:"Group aerobics sessions to keep your heart and body moving."},
+{name:"Kickboxing",cat:"Cardio",icon:"fa-hand-fist",img:"https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?q=80&w=800&auto=format&fit=crop",desc:"Kickboxing training combining striking skills with fitness."},
+{name:"Crossfit",cat:"Strength",icon:"fa-dumbbell",img:"https://images.unsplash.com/photo-1599058917212-d750089bc07e?q=80&w=800&auto=format&fit=crop",desc:"Functional Crossfit workouts built around effort and variety."},
+{name:"Private Lessons",cat:"Coaching",icon:"fa-user-check",img:"https://images.unsplash.com/photo-1571731956672-f2b94d7dd0cb?q=80&w=800&auto=format&fit=crop",desc:"One-to-one private lessons focused on your personal goals."},
+{name:"Personal Training",cat:"Coaching",icon:"fa-person",img:"https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?q=80&w=800&auto=format&fit=crop",desc:"Personal training guidance for technique, strength and progress."},
+{name:"Adult Sports",cat:"Wellness",icon:"fa-futbol",img:"https://images.unsplash.com/photo-1461896836934-ffe607ba8211?q=80&w=800&auto=format&fit=crop",desc:"Adult sports activities to stay active, social and fit."},
+{name:"Weight Training",cat:"Strength",icon:"fa-weight-hanging",img:"https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?q=80&w=800&auto=format&fit=crop",desc:"Weight training with dumbbells, weights and strength equipment."},
+{name:"Nutrition Consulting",cat:"Wellness",icon:"fa-apple-whole",img:"https://images.unsplash.com/photo-1490645935967-10de6ba17061?q=80&w=800&auto=format&fit=crop",desc:"Nutrition consulting to support your training and lifestyle goals."},
+{name:"Cycling",cat:"Cardio",icon:"fa-bicycle",img:"https://images.unsplash.com/photo-1558611848-73f7eb4001a1?q=80&w=800&auto=format&fit=crop",desc:"Indoor cycling for low-impact cardio and endurance."},
+{name:"Lasies",cat:"Wellness",icon:"fa-person-dress",img:"https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=800&auto=format&fit=crop",desc:"Lasies fitness sessions at Shoora Fitness Club."}
+];
+let curFilter="All";
+function renderServices(){
+  const q=(document.getElementById('svcSearch').value||"").toLowerCase();
+  const list=services.filter(s=>(curFilter==="All"||s.cat===curFilter)&&s.name.toLowerCase().includes(q));
+  document.getElementById('svcCount').textContent=list.length;
+  document.getElementById('servicesGrid').innerHTML=list.map((s,i)=>`
+  <article class="group border-2 border-black rounded-[22px] overflow-hidden bg-white card-hover cursor-pointer" onclick="openService('${s.name.replace(/'/g,"\\'")}')">
+    <div class="relative h-44 overflow-hidden"><img loading="lazy" src="${s.img}" alt="${s.name}" class="svc-img w-full h-full object-cover"><span class="absolute top-3 left-3 bg-white text-black text-[10px] font-extrabold px-2.5 py-1 rounded-full">${s.cat.toUpperCase()}</span><span class="absolute top-3 right-3 w-9 h-9 bg-black text-white rounded-full flex items-center justify-center"><i class="fa-solid ${s.icon}"></i></span></div>
+    <div class="p-5"><p class="font-display text-[26px] leading-none">${s.name}</p><p class="text-sm text-black/55 mt-2 leading-relaxed">${s.desc}</p><div class="flex justify-between items-center mt-4"><span class="text-xs font-extrabold tracking-widest">ENQUIRE →</span><a onclick="event.stopPropagation()" href="https://wa.me/919989224307?text=Hello%20Shoora%20Fitness%20Club%2C%20I%20want%20to%20enquire%20about%20${encodeURIComponent(s.name)}." target="_blank" class="w-9 h-9 bg-black text-white rounded-full flex items-center justify-center"><i class="fa-brands fa-whatsapp"></i></a></div></div>
+  </article>`).join('')||`<p class="col-span-full text-center py-10 font-bold">No service found. Try another search.</p>`;
+}
+function openService(name){const s=services.find(x=>x.name===name); if(!s)return; document.getElementById('fService').value=s.name; document.getElementById('fMsg').value=`Hello Shoora Fitness Club, I want to enquire about ${s.name}.`; document.getElementById('contact').scrollIntoView({behavior:'smooth'}); alert(s.name+"\n\n"+s.desc+"\n\nTap Send via WhatsApp in the Contact section to enquire instantly.");}
+document.getElementById('svcSearch').addEventListener('input',renderServices);
+document.querySelectorAll('.fbtn').forEach(b=>b.onclick=()=>{curFilter=b.dataset.f;document.querySelectorAll('.fbtn').forEach(x=>x.className="fbtn border border-black/20 px-4 py-2 rounded-full text-xs font-bold");b.className="fbtn bg-black text-white px-4 py-2 rounded-full text-xs font-bold";renderServices();});
+
+// Gallery
+const gallery=[
+{cat:"Gym Equipment",img:"https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=900&auto=format&fit=crop",cap:"Gym Equipment"},
+{cat:"Dumbbells and Weights",img:"https://images.unsplash.com/photo-1517963879433-6ad2b056d712?q=80&w=900&auto=format&fit=crop",cap:"Dumbbells and Weights"},
+{cat:"Strength Training Equipment",img:"https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?q=80&w=900&auto=format&fit=crop",cap:"Strength Training Equipment"},
+{cat:"Workout Areas",img:"https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=900&auto=format&fit=crop",cap:"Workout Areas"},
+{cat:"Fitness Machines",img:"https://images.unsplash.com/photo-1538805060514-97d9cc17730c?q=80&w=900&auto=format&fit=crop",cap:"Fitness Machines"},
+{cat:"Gym Interior",img:"https://images.unsplash.com/photo-1599058917212-d750089bc07e?q=80&w=900&auto=format&fit=crop",cap:"Gym Interior"},
+{cat:"Strength Training Equipment",img:"https://images.unsplash.com/photo-1605296867304-46d5465a13f1?q=80&w=900&auto=format&fit=crop",cap:"Strength Training Equipment"},
+{cat:"Dumbbells and Weights",img:"https://images.unsplash.com/photo-1540497077202-7c8a3999166f?q=80&w=900&auto=format&fit*crop",cap:"Dumbbells and Weights"},
+{cat:"Workout Areas",img:"https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=900&auto=format&fit=crop",cap:"Workout Areas"},
+{cat:"Gym Equipment",img:"https://images.unsplash.com/photo-1594381898411-846e7d193883?q=80&w=900&auto=format&fit=crop",cap:"Gym Equipment"},
+{cat:"Fitness Machines",img:"https://images.unsplash.com/photo-1558611848-73f7eb4001a1?q=80&w=900&auto=format&fit=crop",cap:"Fitness Machines"},
+{cat:"Gym Interior",img:"https://images.unsplash.com/photo-1574680096145-d05b474e2155?q=80&w=900&auto=format&fit=crop",cap:"Gym Interior"}
+];
+let curGal="All", lbIndex=0;
+function renderGallery(){
+  const list=gallery.filter(g=>curGal==="All"||g.cat===curGal);
+  document.getElementById('galleryGrid').innerHTML=list.map((g,i)=>`<div class="gal-item relative h-52 md:h-64 overflow-hidden rounded-2xl cursor-pointer group" onclick="openLB(${i})"><img loading="lazy" src="${g.img}" alt="${g.cap}" class="gal-img w-full h-full object-cover"><div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent"></div><p class="absolute bottom-3 left-3 right-3 font-bold text-xs tracking-wide">${g.cap.toUpperCase()}</p><span class="absolute top-3 right-3 w-8 h-8 bg-white text-black rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition"><i class="fa-solid fa-expand text-xs"></i></span></div>`).join('');
+  window._list=list;
+}
+document.querySelectorAll('.gbtn').forEach(b=>b.onclick=()=>{curGal=b.dataset.g;document.querySelectorAll('.gbtn').forEach(x=>x.className="gbtn shrink-0 border border-white/20 px-4 py-2 rounded-full text-xs font-bold");b.className="gbtn shrink-0 bg-white text-black px-4 py-2 rounded-full text-xs font-extrabold";renderGallery();});
+function openLB(i){lbIndex=i;updateLB();document.getElementById('lightbox').classList.remove('hidden');document.getElementById('lightbox').classList.add('flex');}
+function updateLB(){const l=window._list||gallery;document.getElementById('lbImg').src=l[lbIndex].img;document.getElementById('lbCap').textContent=l[lbIndex].cap+"  •  "+(lbIndex+1)+" / "+l.length;}
+function navLB(d){const l=window._list||gallery;lbIndex=(lbIndex+d+l.length)%l.length;updateLB();}
+function closeLB(){document.getElementById('lightbox').classList.add('hidden');document.getElementById('lightbox').classList.remove('flex');}
+document.getElementById('lightbox').addEventListener('click',e=>{if(e.target.id==='lightbox')closeLB()});
+
+// BMI
+function calcBMI(){const h=+document.getElementById('hRange').value,w=+document.getElementById('wRange').value;document.getElementById('hVal').textContent=h;document.getElementById('wVal').textContent=w;const bmi=(w/Math.pow(h/100,2)).toFixed(1);document.getElementById('bmiOut').textContent=bmi;let cat=bmi<18.5?"Underweight":bmi<25?"Healthy":bmi<30?"Overweight":"Obese";document.getElementById('bmiCat').textContent=cat;}
+document.getElementById('hRange').addEventListener('input',calcBMI);document.getElementById('wRange').addEventListener('input',calcBMI);
+
+// Form
+const sel=document.getElementById('fService'); sel.innerHTML=services.map(s=>`<option>${s.name}</option>`).join('');
+document.getElementById('enquiryForm').addEventListener('submit',e=>{e.preventDefault();const n=document.getElementById('fName').value,p=document.getElementById('fPhone').value,s=sel.value,m=document.getElementById('fMsg').value;const text=`Hello Shoora Fitness Club,%0A%0AName: ${encodeURIComponent(n)}%0APhone: ${encodeURIComponent(p)}%0AService: ${encodeURIComponent(s)}%0AMessage: ${encodeURIComponent(m)}`;document.getElementById('formToast').classList.remove('hidden');window.open(`https://wa.me/919989224307?text=${text}`,'_blank');});
+
+// Nav / scroll
+document.getElementById('menuBtn').onclick=()=>document.getElementById('mobileMenu').classList.toggle('hidden');
+document.querySelectorAll('#mobileMenu a').forEach(a=>a.onclick=()=>document.getElementById('mobileMenu').classList.add('hidden'));
+window.addEventListener('scroll',()=>{const b=document.getElementById('topBtn');if(scrollY>500){b.classList.remove('hidden');b.classList.add('flex')}else{b.classList.add('hidden');b.classList.remove('flex')}});
+document.getElementById('topBtn').onclick=()=>scrollTo({top:0,behavior:'smooth'});
+function tick(){document.getElementById('liveTime').textContent=new Date().toLocaleTimeString('en-IN',{hour:'2-digit',minute:'2-digit'});} tick(); setInterval(tick,30000);
+const obs=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')}),{threshold:.12});document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+
+renderServices();renderGallery();calcBMI();
+</script>
+</body>
+</html>
